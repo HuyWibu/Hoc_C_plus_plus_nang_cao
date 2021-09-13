@@ -23,7 +23,7 @@ void sinh()
 		// dao lai mang tu vi tri i+1 den n
 		while(r<c)	// khi nao r con nho hon c thi
 		{
-			swap(a[c],a[r]);	// doi cho a[c] va a[r]
+			swap(a[c],a[r]);	// doi cho a[c] va a[r]		5 8 6 2 3 ----> 5 8 6 3 2 ------> 6 2 3 5 8 -----> 
 			r++;c--;	
 		}
 	}
